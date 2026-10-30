@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Second Mind Upload</title>
+<meta name="description" content="Second Mind Upload, a personal tool.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#F1F3F8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0B1220" media="(prefers-color-scheme: dark)">
+<style>
+:root{
+  --accent:#047857;--on-accent:#fff;
+  --bg:#f1f3f8;--surface:#fff;--ink:#13203f;--muted:#56607a;--border:#e1e5ee;
+  --font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root{--accent:#34d399;--on-accent:#052e1f;--bg:#0b1220;--surface:#121c33;--ink:#e8eefc;--muted:#9aa8c7;--border:#1f2c4a}
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 var(--font)}
+header{padding:calc(48px + env(safe-area-inset-top,0px)) 20px 28px}
+.wrap{max-width:640px;margin:0 auto}
+h1{margin:0;font-size:34px;line-height:1.15;font-weight:800}
+main{padding:0 20px 48px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:24px 22px}
+p{margin:0 0 14px}
+p:last-child{margin-bottom:0}
+a{color:var(--accent);font-weight:600}
+footer{padding:0 20px calc(32px + env(safe-area-inset-bottom,0px));color:var(--muted);font-size:14px}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>Second Mind Upload</h1>
+  </div>
+</header>
+<main>
+  <div class="wrap card">
+    <p>Second Mind Upload is a personal tool that only I use. It copies my own notes from my PC to my own Google Drive. It isn't offered to anyone else.</p>
+    <p><a href="privacy/">Privacy policy</a></p>
+  </div>
+</main>
+<footer>
+  <div class="wrap">Second Mind Upload is made by Steve Burlison.</div>
+</footer>
+</body>
+</html>
